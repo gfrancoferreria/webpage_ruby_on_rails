@@ -1,0 +1,22 @@
+/* Add background image to the main section */
+.main-section {
+  background: url('https://astelus.com/wp-content/viajes/las-asombrosas-vistas-en-zhangjiajie-china.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color: #000; /* Set text color to white for better visibility */
+  padding: 100px 0; /* Adjust padding as needed */
+  
+}
+
+/* Style for the footer */
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+}
+
+.footer-link img {
+  width: 30px; /* Adjust the width as needed */
+  height: 30px; /* Maintain the aspect ratio */
+}
+
+/* Add more styling as needed */
