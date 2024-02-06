@@ -2,21 +2,74 @@
 .main-section {
   background: url('https://astelus.com/wp-content/viajes/las-asombrosas-vistas-en-zhangjiajie-china.jpg') no-repeat center center fixed;
   background-size: cover;
-  color: #000; /* Set text color to white for better visibility */
+  color: white;
+  text-shadow: 4px 2px 4px #000000;
   padding: 100px 0; /* Adjust padding as needed */
+  
+}
+
+.encabezado {
+   background: url('https://astelus.com/wp-content/viajes/las-asombrosas-vistas-en-zhangjiajie-china.jpg') no-repeat center center fixed;
+  display: flex;
+  background-size: cover;
+  text-align: center; /* Centra horizontalmente */
+  line-height: 10vh; /* Centra verticalmente */
+  margin: 0; /* Elimina el margen predeterminado */
+  color: white;
+  text-shadow: 4px 2px 4px #000000;
+  justify-content: center;
+  line-height: 15vh; /* Centra verticalmente */
   
 }
 
 /* Style for the footer */
 .footer {
-  background-color: #333;
-  color: #fff;
-  padding: 20px 0;
+  margin-top: auto;
+  background-color: black; /* Adjust the background color as needed */
+  text-align: center;
+  padding: 20px;
+  color: white;
+  bottom:0;
 }
 
+/* Style the social media icons to appear in smaller size */
 .footer-link img {
   width: 30px; /* Adjust the width as needed */
   height: 30px; /* Maintain the aspect ratio */
 }
 
-/* Add more styling as needed */
+.carousel{
+  display: flex;
+  justify-content: center;
+}
+#carouselExample {
+  max-width: 400px;
+  max-height: 200px;
+  margin: auto;
+   
+}
+
+.carousel-inner {
+  width: 100%;
+  height: 100%;
+}
+
+.carousel-item img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.piepagina {
+  background: black;
+  display: flex;
+  background-size: cover;
+  text-align: center; /* Centra horizontalmente */
+  line-height: 5vh; /* Centra verticalmente */
+  margin: 10; /* Elimina el margen predeterminado */
+  color: white;
+  text-shadow: 4px 2px 4px #000000;
+  justify-content: center;
+  
+}
+
